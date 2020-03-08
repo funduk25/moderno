@@ -50,7 +50,7 @@
             padding: 10px 32px;
             align-items: center;
             min-height: 90px;
-            font-weight: 500;
+            @include f500;
             border-bottom: 1px solid #e7ecf2;
         }
         &-name {
@@ -69,7 +69,7 @@
         }
         &-price {
             font-size: 20px;
-            font-weight: 700;
+            @include f700;
             color: $bg;
         }
         &-info {
@@ -95,7 +95,7 @@
             }
             span {
                 font-size: 14px;
-                font-weight: 500;
+                @include f500;
             }
         }
     }
