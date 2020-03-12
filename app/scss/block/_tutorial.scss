@@ -1,0 +1,37 @@
+.tutorial {
+    padding: 66px 0 160px;
+    text-align: center;
+    &__title {
+        color: $bg;
+        font-size: 36px;
+        @include f700;
+        line-height: 60px;
+        padding-bottom: 55px;
+    }
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        max-width: 370px;
+        width: 100%;
+    }
+}
+
+.tutorial__item {
+    &__images {
+        min-height: 270px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    &-title {
+        background-color: #ffffff;
+        color: $bg;
+        font-size: 24px;
+        @include f700;
+        line-height: 60px;
+        padding: 20px 10px;
+        text-align: center;
+    }
+}
